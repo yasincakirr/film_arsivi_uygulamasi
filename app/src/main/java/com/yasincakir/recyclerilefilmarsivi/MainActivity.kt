@@ -34,6 +34,8 @@ class MainActivity : AppCompatActivity() {
         isimler.add("Rocky")
         isimler.add("Seven")
         isimler.add("Forrest Gump")
+        isimler.add("Esaretin Bedeli")
+        isimler.add("Yıldızlararası")
 
 
 
@@ -47,7 +49,8 @@ class MainActivity : AppCompatActivity() {
         aciklamalar.add("Film, yoksul ve kimsesiz, eğitimsiz, iyi kalpli bir İtalyan-Amerikalı işçi sınıfından olan ve küçük çaplı bir kulüp boksörü olan Rocky Balboa'nın (Stallone) Amerikan Rüyası hikâyesini anlatıyor.")
         aciklamalar.add("Cinayet masasından iki dedektif bir seri katilin peşine düşer. Bu katil, cinayetleri dünyayı yedi ölümcül günahtan temizlemek için işlemektedir. Bu günahları işleyenlerden bir liste yapan katil, kendini tanrının görevlisi sayar ve kurbanlarını acımasızca öldürür.")
         aciklamalar.add("Film; öğrenme güçlüğü yaşayan ancak atletik olarak inanılmaz yeteneklere sahip Forrest Gump'ın, doğum yılı olan 1944 ve 1982 yılları arasında gerçekleşmiş, bazen sadece gözlemlediği, bazen de başkalarına ilham verdiği 20. yüzyılın dönüm noktası olaylarını betimler.")
-
+        aciklamalar.add("1947 yılında başarılı bir bankacı olan Andy Dufrense aynı başarıyı evliliğinde gösterememektedir ve eşi tarafından başka bir erkekle aldatılmaktadır. Bunu kabullenemeyen Andy, eşinin aşığıyla buluştuğu bir gece alkolün de verdiği cesaretle silahına mermileri doldurur ve öfkeyle aracından iner.")
+        aciklamalar.add("İnsanlığın felaket boyutunda bir salgın hastalık ve kıtlıkla boğuştuğu distopik bir gelecekte geçen film, insanlık için yeni bir yuva arayışıyla Satürn yakınlarındaki solucan deliğinden geçen bir grup astronotu konu ediyor.")
 
         var scarfaceBitmap=R.drawable.scarface
         var godfatherBitmap=R.drawable.godfather
@@ -57,6 +60,8 @@ class MainActivity : AppCompatActivity() {
         var rockBitmap=R.drawable.rocky
         var sevenBitmap=R.drawable.seven
         var forestBitmap=R.drawable.forest
+        var esaretinBitmap=R.drawable.esaretin_bedeli
+        var yildizlararasiBitmap=R.drawable.yidizlararasi
 
         var resimler= arrayListOf<Int>()
 
@@ -69,6 +74,8 @@ class MainActivity : AppCompatActivity() {
         resimler.add(rockBitmap)
         resimler.add(sevenBitmap)
         resimler.add(forestBitmap)
+        resimler.add(esaretinBitmap)
+        resimler.add(yildizlararasiBitmap)
 
 
         var ImdbPuan= arrayListOf<String>()
@@ -80,6 +87,8 @@ class MainActivity : AppCompatActivity() {
         ImdbPuan.add("Imdb : 8,1")
         ImdbPuan.add("Imdb : 8.6")
         ImdbPuan.add("Imdb : 8,8")
+        ImdbPuan.add("Imdb : 9,1")
+        ImdbPuan.add("Imdb : 8,7")
 
 
 
